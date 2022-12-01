@@ -1,4 +1,5 @@
 import Animals.Horse;
+import Animals.Kangaroo;
 import Animals.Shimpanze;
 
 public class Main {

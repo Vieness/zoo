@@ -1,5 +1,4 @@
-import Animals.Animal;
-import Animals.VoiceAnimal;
+package Animals;
 
 import java.util.Objects;
 
@@ -37,13 +36,13 @@ public class Kangaroo extends Animal implements VoiceAnimal {
 
     @Override
     public String toString() {
-        return "Kangaroo{" +
+        return "Animals.Kangaroo{" +
                 "height=" + height +
                 "} " + super.toString();
     }
 
     @Override
     public void voice() {
-        System.out.println("Kangaroo: kangaroo sound");
+        System.out.println("Animals.Kangaroo: kangaroo sound");
     }
 }
